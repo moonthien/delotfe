@@ -1,8 +1,8 @@
 // Config cho URL API và assets
 const API_CONFIG = {
   // Base URL cho API server - có thể override bằng environment variable
-  BASE_URL: import.meta.env.VITE_API_BASE_URL || "http://localhost:3999",
-//  BASE_URL: import.meta.env.VITE_API_BASE_URL || "https://kltnbe-production.up.railway.app" || "http://localhost:3999",
+  //BASE_URL: import.meta.env.VITE_API_BASE_URL || "http://localhost:3999",
+ BASE_URL: import.meta.env.VITE_API_BASE_URL || "https://kltnbe-production.up.railway.app",
 
   // Endpoints
   API_VERSION: import.meta.env.VITE_API_VERSION || "/v1/api",
