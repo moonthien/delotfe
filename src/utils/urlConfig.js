@@ -3,7 +3,7 @@ const API_CONFIG = {
   // Base URL cho API server - có thể override bằng environment variable
   //BASE_URL: import.meta.env.VITE_API_BASE_URL || "https://kltnbe-production.up.railway.app",
   BASE_URL:
-    import.meta.env.VITE_API_BASE_URL ||
+    // import.meta.env.VITE_API_BASE_URL ||
     "https://kltnbe-production.up.railway.app",
 
   // Endpoints
